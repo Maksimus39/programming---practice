@@ -7,6 +7,7 @@ import Toolbar from "./Реагирование на события/AlertButton"
 import ToolbarTwo from "./Реагирование на события/Toolbar";
 import AppThree from "./Реагирование на события/AppThree";
 import LightSwitch from "./Реагирование на события/LightSwitch";
+import {UseState} from "./usState/UseState";
 
 function App() {
     return (
@@ -24,6 +25,8 @@ function App() {
             <AppThree/>
             <br/>
             <LightSwitch/>
+            <br/>
+            <UseState/>
         </div>
     );
 }
