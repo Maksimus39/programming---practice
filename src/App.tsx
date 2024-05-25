@@ -8,6 +8,7 @@ import ToolbarTwo from "./Реагирование на события/Toolbar";
 import AppThree from "./Реагирование на события/AppThree";
 import LightSwitch from "./Реагирование на события/LightSwitch";
 import {UseState} from "./usState/UseState";
+import {ConditionalRendering} from "./Conditional Rendering/ConditionalRendering";
 
 function App() {
     return (
@@ -27,6 +28,10 @@ function App() {
             <LightSwitch/>
             <br/>
             <UseState/>
+            <br/>
+            <ConditionalRendering led={false}/>
+
+            <ConditionalRendering />
         </div>
     );
 }
